@@ -2,7 +2,7 @@ name: Scraper Togo
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: '19 19 * * 1'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
